@@ -17,7 +17,7 @@ from pyrogram.types import (
 )
 
 from pyrogram.types.messages_and_media import Message
-from utils.vars import API_HASH, API_ID, BOT_TOKEN, WEBHOOK, PORT
+from vars import API_HASH, API_ID, BOT_TOKEN, WEBHOOK, PORT
 from utils.helper import (
     getstatusoutput,
     is_youtube_link,
