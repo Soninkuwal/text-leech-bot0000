@@ -18,15 +18,8 @@ from pyrogram.types import (
 
 from pyrogram.types.messages_and_media import Message
 from vars import API_HASH, API_ID, BOT_TOKEN, WEBHOOK, PORT
-from utils import (
-    getstatusoutput,
-    is_youtube_link,
-    remove_chars,
-    remove_duplicate_line,
-    replace_space,
-    is_valid_link,
-)
-
+from utils import getstatusoutput, is_youtube_link, remove_chars, remove_duplicate_line, replace_space, is_valid_link
+    
 from aiohttp import web
 
 
