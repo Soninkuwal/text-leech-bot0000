@@ -6,5 +6,5 @@ RUN apt-get update -y && apt-get upgrade -y \
 
 COPY . /app/
 WORKDIR /app/
-RUN pip install pyrogram requests aiohttp yt-dlp 
+RUN pip install pyrogram requests aiohttp yt-dlp tgcrypto
 CMD python3 modules/main.py
